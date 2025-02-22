@@ -1,6 +1,6 @@
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @new_updet
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+# Ask Doubt on telegram @insightweav
 
 from info import *
 from pyrogram import Client
@@ -15,6 +15,6 @@ class Bot(Client):
             plugins={"root": "plugins"})
     async def start(self):                        
         await super().start()  
-        print("Bot Started 🔧 Powered By @VJ_Botz")   
+        print("Bot Started 🔧 Powered By @new_updet")   
     async def stop(self, *args):
         await super().stop()
